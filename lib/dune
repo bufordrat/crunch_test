@@ -1,0 +1,16 @@
+(library
+ (name lib)
+ (libraries prelude etude))
+
+(rule
+ (action
+  (with-stdout-to crunched.ml
+  (run ocaml-crunch -m plain subdir))))
+
+(env
+ (dev
+  (flags (:standard -warn-error -A))))
+
+; Local Variables:
+; mode: dune
+; End:

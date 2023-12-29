@@ -1,0 +1,6 @@
+(test
+ (name test_crunch_test))
+
+; Local Variables:
+; mode: dune
+; End:
