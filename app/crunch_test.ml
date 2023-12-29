@@ -1,2 +1,2 @@
 (* -*- mode: tuareg -*- *)
-let () = print_endline Lib.message
+let () = print_endline (List.hd Lib.x)

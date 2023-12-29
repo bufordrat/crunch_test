@@ -1,3 +1,5 @@
 (* -*- mode: tuareg -*- *)
-let message = "GOODBYE CRUEL WORLD (is underrated)"
+module Crunched = Crunched
+
+let x = Crunched.file_list
 
